@@ -1,3 +1,10 @@
 #dnav{
     background-color: blueviolet;
 }
+.footer{
+    background-color: indigo;
+    color: aliceblue;
+}
+ul li a{
+    color:aliceblue;
+}
