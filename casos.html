@@ -9,6 +9,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,32 +23,40 @@
     <div class="container">
         <h1>Casos Positivos En Colombia</h1>
         <p>
-            Los casos se obtienen de la fuente de datos abierta <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-deCOVID-19-en-Colombia/gt2j-8ykr">https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-deCOVID-19-en-Colombia/gt2j-8ykr</a>
-            </p>
+            Los casos se obtienen de la fuente de datos abierta <a
+                href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-deCOVID-19-en-Colombia/gt2j-8ykr">https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-deCOVID-19-en-Colombia/gt2j-8ykr</a>
+        </p>
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Fecha de Notificacion</th>
+                    <th>Ciudad de Ubicacion</th>
+                    <th>Atencion</th>
+                    <th>Edad</th>
+                    <th>Sexo</th>
+                    <th>Tipo</th>
+                    <th>Estado</th>
+                    <th>Ubicacion Recuperado</th>
+                </tr>
+            </thead>
+        
+        
+        </table>
+
+
     </div>
 
-    <table class="table">
-        <thead id="cabezeraT">
-            <tr>Fecha de Notificacion</tr>
-            <tr>Ciudad de Ubicacion</tr>
-            <tr>Atencion</tr>
-            <tr>Edad</tr>
-            <tr>Sexo</tr>
-            <tr>Tipo</tr>
-            <tr>Estado</tr>
-            <tr>Ubicacion Recuperado</tr>
-        </thead>
-
-    </table>
 
 
     <footer class="footer">
         <div class="row ml-5">
-            
+
             <div class="col">
                 <p>Enlaces Nacionales</p>
                 <ul>
-                    <li><a href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">MinSalud</a></li>
+                    <li><a href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">MinSalud</a>
+                    </li>
                     <li><a href="https://coronaviruscolombia.gov.co/Covid19/index.html">Coronavirus Colombia</a></li>
                     <li><a href="https://www.ins.gov.co/Noticias/paginas/coronavirus.aspx">INSalud</a></li>
                 </ul>
@@ -55,9 +64,13 @@
             <div class="col">
                 <p>Enlaces Internacionales</p>
                 <ul>
-                    <li><a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses">OMS</a></li>
+                    <li><a
+                            href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses">OMS</a>
+                    </li>
                     <li><a href="https://coronavirus.app/map">Coronavirus App</a></li>
-                    <li><a href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Clinica Mayo</a></li>
+                    <li><a
+                            href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Clinica
+                            Mayo</a></li>
                     <li><a href="https://www.un.org/es/coronavirus">Naciones Unidas</a></li>
                 </ul>
             </div>
@@ -69,18 +82,19 @@
                 <p> Cel 313 445 6789</p>
             </div>
         </div>
-        <p class="mt-5" style="text-align: center;">2020 © All Rights Reserved. Desarrollado por JOHAN LEONARDO IBARRA</p>
+        <p class="mt-5" style="text-align: center;">2020 © All Rights Reserved. Desarrollado por JOHAN LEONARDO IBARRA
+        </p>
     </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
